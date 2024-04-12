@@ -1,0 +1,260 @@
+/* created some variables to be able to use colors easily*/
+:root{
+    --lightpurple:#ddc4fc;
+    --neonpurple: #ba0ffd;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* styling of the body */
+body{
+    box-sizing:border-box;
+    background-color:#f0edf4;
+} 
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+/* styling of the Header */
+header{
+    top:0;
+    padding: 2rem;
+    margin-bottom:3rem;
+    background: var(--lightpurple);
+    border-bottom: solid var(--neonpurple) 3px;
+}
+
+/* styling of my name on the Header Semantic Element */
+.katherine{
+    color:white;
+}
+.mejia{
+    color:var(--neonpurple);
+}
+
+.katherine, .mejia{
+    display:flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* styling of the Nav Semantic Element */
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* styling navigation */
+.nav-text{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+.nav-text:hover{
+    color:var(--neonpurple)
+}
+
+/* styling of the Main Semantic Element */
+.main-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0;
+    gap:2rem;
+}
+
+/* styling the About Me Section */
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:1rem;
+    gap:2rem;  
+    border-bottom: solid var(--neonpurple) 2px;
+}
+
+/* styling all Img Semantic Element */
+img{
+    width: 100%;
+}
+
+/* styling My Photo */
+.image-container{
+    max-width: 25rem;
+    min-width:10rem;
+    padding:1rem;
+    border-radius: 6px;
+    box-shadow:8px 4px 4px rgba(0,0,0,0.6);
+    background-color: var(--lightpurple);
+}
+
+/* styling the About Me text container */
+.about-me{
+    max-width: 40rem;
+    min-width:20rem;
+    text-align:center;
+    padding:1rem;
+    border-radius: 6px;
+    box-shadow:8px 4px 4px rgba(0,0,0,0.6);
+    background-color: var(--lightpurple);
+}
+
+/* styling small images container */
+.me-images-container{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding:1rem;
+    gap:2rem;  
+}
+
+.me-image{
+    max-width: 5rem;
+    min-width: 10rem;
+    text-align:center;
+    padding:1rem;
+    border-radius: 6px;
+    box-shadow:8px 4px 4px rgba(0,0,0,0.6);
+    background-color: var(--lightpurple); 
+}
+.class-pic{
+    width:100%;
+    height:86%;
+}
+/* Below is the styling of Project Section */
+/* display flex for the parent container */
+.work-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem;
+    gap:2rem;
+    border-bottom: solid var(--neonpurple) 2px;
+} 
+
+/* display flex column for child container */
+.child-aboutme, .child-workcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:1rem;
+    gap:2rem;
+}
+
+/* to style a specific project larger than the others */
+
+.top-project{
+    max-width: 50rem;
+    min-width: 20rem;
+    text-align:center;
+    padding:1rem;
+    border-radius: 6px;
+    box-shadow:8px 4px 4px rgba(0,0,0,0.6);
+    background-color: var(--lightpurple);   
+
+}
+/* styling the image thats inside the top-project container */
+.code-image{
+    width: 100%;
+    height: 86%;
+}
+
+/* display flex for future projects */
+.projects-container{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding:1rem;
+    gap:2rem;
+}
+
+/* styling for the future projects */
+.other-project{
+    max-width: 5rem;
+    min-width: 10rem;
+    text-align:center;
+    padding:1rem;
+    border-radius: 6px;
+    box-shadow:8px 4px 4px rgba(0,0,0,0.6);
+    background-color: var(--lightpurple);   
+}
+
+/* styling hover over the images on projects */
+.top-project a:hover, .other-project a:hover{
+    opacity: 0.5;
+}
+
+/* Below is the styling for Resume Section */
+.resume-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem;
+    gap:2rem;
+    border-bottom: solid var(--neonpurple) 2px;
+}
+
+/* styling of the Resume Image */
+.resume-img{
+    max-width: 40rem;
+    min-width:20rem;
+    padding:1rem;
+    border-radius: 6px;
+    box-shadow:8px 4px 4px rgba(0,0,0,0.6);
+    background-color: var(--lightpurple);
+}
+
+/* styling for Contact Me Section */
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:1rem;
+    gap:2rem;
+}
+
+footer{
+    bottom:0;
+    padding: 2rem;
+    margin-top:3rem;
+    background: var(--lightpurple);
+    border-top: solid var(--neonpurple) 3px;
+}
+
+.title{
+    display:flex;
+    border-right:#ba0ffd solid 3px;
+    padding:3rem;
+}
+.contact-text{
+    padding:1rem;
+}
+
+.bottom-text{ 
+    text-align: center;
+} 
+
+.center-text{
+    text-align: center;
+    color:white;
+}
+
+.right-text{
+    text-align:right;
+}
