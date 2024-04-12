@@ -48,6 +48,6 @@ By monsitj
 ( https://stock.adobe.com/search?k=coding&asset_id=348397404 )
 
 # Repository Links
-https://mejiak7.github.io/Challenge-2/
-https://github.com/mejiak7/Challenge-2.git
+https://mejiak7.github.io/KM-Portfolio/
+https://github.com/mejiak7/KM-Portfolio.git
 
